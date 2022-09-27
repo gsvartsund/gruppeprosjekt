@@ -1,7 +1,10 @@
 ﻿/*LAG TEAM FØRST FORDI DE IKKE HAR NOEN FOREIGN KEYS*/
+INSERT INTO team(team_name) VALUES ("Ledergruppe");
+INSERT INTO team(team_name) VALUES ("Salg Og Marked");
 INSERT INTO team(team_name) VALUES ("Produksjon");
-INSERT INTO team(team_name) VALUES ("Salg");
-INSERT INTO team(team_name) VALUES ("Markedsføring");
+INSERT INTO team(team_name) VALUES ("Teknisk");
+INSERT INTO team(team_name) VALUES ("Logistikk");
+
 
 
 /*LAG SÅ ANSATTE FOR Å KUNNE REFERERE TIL DE I SUGGESTION FOREIGN KEY*/
